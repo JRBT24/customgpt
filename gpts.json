@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Travel Planner GPT",
+    "description": "A custom GPT that helps you plan itineraries and provides suggestions for flights, accommodations, and attractions based on your preferences.",
+    "link": "#",  // Replace with your custom GPT link
+    "features": [
+      "Personalized travel recommendations",
+      "Budget planning support",
+      "Real-time updates"
+    ],
+    "icon": "bi-globe"
+  },
+  {
+    "title": "Recipe Assistant GPT",
+    "description": "A GPT specialized in culinary assistance. It suggests recipes, helps with ingredient substitutions, and guides you through cooking techniques.",
+    "link": "#",  // Replace with your custom GPT link
+    "features": [
+      "Recipe suggestions",
+      "Ingredient substitutions",
+      "Step-by-step cooking guidance"
+    ],
+    "icon": "bi-egg-fried"
+  },
+  {
+    "title": "Study Buddy GPT",
+    "description": "This GPT acts as a study partner that answers questions, quizzes you, and provides summaries of topics to support your learning process.",
+    "link": "#",  // Replace with your custom GPT link
+    "features": [
+      "Question & answer support",
+      "Interactive quizzes",
+      "Topic summaries"
+    ],
+    "icon": "bi-book"
+  }
+]

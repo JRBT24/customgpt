@@ -1,0 +1,80 @@
+/*
+ * Custom styles for the Custom GPTs Showcase website
+ *
+ * This stylesheet adds a hero background, card enhancements,
+ * and spacing tweaks to complement Bootstrap's default styles.
+ */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Hero section with full‑width background image and dark overlay */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    background-image: url('images/hero.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px; /* offset fixed navbar */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.section-title {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Card styling to add subtle shadows and lift on hover */
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Style list items in cards */
+.card ul {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+
+.card li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.card li i {
+    margin-right: 0.5rem;
+    color: var(--bs-primary);
+}
+
+/* Footer spacing */
+footer small a {
+    color: inherit;
+}
